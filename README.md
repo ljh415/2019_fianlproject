@@ -19,7 +19,7 @@
 
 #### 1-1) Car Detection and Socket Communication
 
-![](C:\github\사진\2019_finalproject_02.png)
+![1-1](https://user-images.githubusercontent.com/48716219/75887799-af142280-5e6d-11ea-9407-dff7f259863f.png)
 
 - Car Detection
   - 배경제거, 움직이는 물체는 contour로 표시
@@ -35,7 +35,7 @@
 
 #### 1-2) multi_processing.py 실행 화면
 
-![](C:\github\사진\2019_finalproject_01.png)
+![1-2](https://user-images.githubusercontent.com/48716219/75887859-c81cd380-5e6d-11ea-882f-31a43753b5a2.png)
 
 - 각 거리마다 들어오는 차량 Counter(Input Counter), 나가는 차량 Counter(Output Counter)
   - 파란박스에 들어오면 ID, centroid를 부여, 박스안에서 tracking을 한다. 연두색 라인을 지날때 counting을 해서 차량수를 하나씩 늘려간다
@@ -47,9 +47,7 @@
 
 #### 2) Traffic Light Control System
 
-![](C:\github\사진\2019_finalproject_03.png)
-
-
+![2](https://user-images.githubusercontent.com/48716219/75887887-d2d76880-5e6d-11ea-9573-c549624370cd.png)
 
 - Socket Communication (Client)
   - 신호 길이를 설정, 한 Cycle경과 후 Server에 교통량 Data를 요청
